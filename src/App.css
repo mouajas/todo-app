@@ -1,0 +1,96 @@
+* {
+  font-family: Optima, sans-serif;
+}
+
+body {
+  background: rgb(245, 214, 255);
+  background: linear-gradient(125deg, rgba(245, 214, 255, 1) 0%, rgba(251, 223, 196, 1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.to-do-list {
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 50px;
+  width: 500px;
+  background-color: white;
+  border-radius: 15px;
+  -webkit-box-shadow: 5px 5px 30px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 5px 5px 30px -5px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  font-size: 4rem;
+  color: #3c3c3c;
+}
+
+button {
+  font-size: 1.7rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: #5fb5fa;
+  border: 2px solid #5fb5fa;
+  border-radius: 0px 5px 5px 0px;
+  width: 3rem;
+  height: 3rem;
+  padding-top: 8px;
+}
+
+.edit-button {
+  background-color: #faab5f;
+  width: 3rem;
+  height: 3rem;
+  padding: 11px;
+}
+
+.delete-button {
+  background-color: #ed6464;
+  width: 3rem;
+  height: 3rem;
+  padding: 11px;
+  margin-left: 5px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"] {
+  font-size: 1.7rem;
+  height: 1.50rem;
+  margin-right: -2px;
+  padding: 10px;
+  border: 2px solid #5fb5fa;
+  border-radius: 5px 0px 0px 5px;
+  color: #3c3c3c;
+  outline: none;
+  margin-bottom: 50px;
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  color: #3c3c3c;
+  font-size: 1.7rem;
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+
+.text {
+  flex: 1;
+}
